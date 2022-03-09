@@ -13,6 +13,8 @@
 #include <sys/stat.h>
 #include <time.h>
 
+#define S_IWRITE S_IWUSR
+
 #if defined(_WIN32) || defined(__WIN32__) || defined(_MSC_VER) ||              \
     defined(__MINGW32__)
 /* Win32, DOS, MSVC, MSVS */
